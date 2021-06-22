@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Segoe UI Normal';
+    src: 
+        url('Segoe UI 400.ttf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'Segoe UI Gras';
+    src: 
+        url('Segoe UI Gras 700.ttf')
+        format('truetype');
+}
+
+body {
+    padding: 5px;
+    font-family: 'Segoe UI Normal';
+}
+
+p {
+    color: #545454;
+}
+
+
+h3 {
+    font-family: 'Segoe UI Gras';
+    color: #333333;
+    padding-top: 40px; 
+}
+
+#main{
+    align-items: center;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+#title {
+    font-family: 'Segoe UI Gras';
+    color: #333333;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#img-div {
+    margin: 0 10px 0 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+#image {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    padding: 20px 0 20px 0;
+}
+
+#tribute-info {
+    padding: 30px 20px 20px 20px;
+    margin: 0 auto;
+    width: 75%;
+    text-align: left;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+ul {
+    margin: 0 auto 20px auto;
+    display: table;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+.quote {
+    color: #6E6E6E;
+    font-style: italic;
+}
+
+.segoe-style {
+    font-family: 'Segoe UI Gras';
+    color: #333333;
+    padding-bottom: 30px;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Responsive image */
+@media (max-width: 1024px) {
+    #image {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      height: auto;
+    }
+}
