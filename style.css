@@ -18,14 +18,17 @@ body {
     font-family: 'Segoe UI Normal';
 }
 
-#nav-bar {
+#navbar {
     position: fixed;
-    top: 0;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
 }
 
-#header {
-    top: 0;
-    display: flex;
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
 }
 
 @media screen and (max-width: 600px)
